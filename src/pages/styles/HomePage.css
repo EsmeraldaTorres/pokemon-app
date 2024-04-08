@@ -1,0 +1,152 @@
+.trainer__title {
+  color: #fe1936;
+  text-align: center;
+}
+.red-text {
+  color: #fe1936;
+  font-weight: 700;
+}
+.trainer__text {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30.26px;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.logo__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3em;
+}
+.logo__container img {
+  max-width: 600px;
+}
+.input__trainer {
+  border: solid 1px 0px 1px 1px gray !important;
+  padding: 1em;
+}
+.rectangle__red {
+  height: 9vh;
+  background-color: #dd1a1a;
+  width: 100vw;
+}
+.rectangle__black {
+  height: 6vh;
+  background-color: black;
+  width: 100vw;
+}
+.rectangle {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  z-index: -1;
+}
+.rectangle__header {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  z-index: -1;
+}
+.logo__pokedex {
+  position: absolute;
+  width: auto;
+  height: 12%;
+}
+.logo__pokedex__header {
+  display: none;
+
+  position: absolute;
+  width: auto;
+  height: 70%;
+  right: 15%;
+  top: 50%;
+}
+.home__container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.input__container {
+  display: flex;
+  justify-content: center;
+}
+.btn__comenzar {
+  background-color: #dd1a1a;
+  border: none;
+  color: white;
+  padding: 1em 1.5em;
+}
+.pokedex__header {
+  position: absolute;
+  max-width: 300px;
+  top: 20%;
+  left: 8%;
+}
+.pokedex__page__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.pokedex__page__container__cards {
+  width: 85vw;
+  padding: 2em 0;
+}
+.input__and__select__container {
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.cards__container {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.helper__text__trainer__empty {
+  opacity: 0;
+  margin-top: 1em;
+  text-align: center;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  font-size: 0.8em;
+  justify-content: center;
+}
+.helper__text__trainer__empty p {
+  padding: 1em;
+  width: max-content;
+  text-align: center;
+  border: 1px solid red;
+  background: #fff7f7;
+}
+.display-initial {
+  opacity: 1;
+}
+@media (min-width: 470px) {
+  .logo__pokedex__header {
+    display: initial;
+  }
+  .input__and__select__container {
+    flex-direction: row;
+  }
+}
+/* @media screen {
+  
+} */
